@@ -1,0 +1,617 @@
+TMythGrowl
+v7
+r0
+t287986355.626564
+cCheck dependencies
+cProcessInfoPlistFile /Users/john/Documents/XcodeProjects/mythgrowl/build/Release/MythGrowl.app/Contents/Info.plist Info.plist
+cStripNIB /Users/john/Documents/XcodeProjects/mythgrowl/English.lproj/Menu.nib
+cCopyStringsFile /Users/john/Documents/XcodeProjects/mythgrowl/build/Release/MythGrowl.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
+cCpResource build/Release/MythGrowl.app/Contents/Resources/growlmenu.png growlmenu.png
+cStripNIB /Users/john/Documents/XcodeProjects/mythgrowl/Config.nib
+cCpResource build/Release/MythGrowl.app/Contents/Resources/application.icns application.icns
+cCpResource build/Release/MythGrowl.app/Contents/Resources/Credits.rtf Credits.rtf
+cCpResource build/Release/MythGrowl.app/Contents/Resources/growlmenu1.png growlmenu1.png
+cCpResource build/Release/MythGrowl.app/Contents/Resources/growlmenu2.png growlmenu2.png
+cCompileC build/mythgrowl.build/Release/MythGrowl.build/Objects-normal/ppc/main.o /Users/john/Documents/XcodeProjects/mythgrowl/main.m normal ppc objective-c com.apple.compilers.gcc.4_2
+cCompileC build/mythgrowl.build/Release/MythGrowl.build/Objects-normal/ppc/PreferencesController.o /Users/john/Documents/XcodeProjects/mythgrowl/PreferencesController.m normal ppc objective-c com.apple.compilers.gcc.4_2
+cCompileC build/mythgrowl.build/Release/MythGrowl.build/Objects-normal/ppc/MenuHandler.o /Users/john/Documents/XcodeProjects/mythgrowl/MenuHandler.m normal ppc objective-c com.apple.compilers.gcc.4_2
+cCompileC build/mythgrowl.build/Release/MythGrowl.build/Objects-normal/ppc/GrowlHandler.o /Users/john/Documents/XcodeProjects/mythgrowl/GrowlHandler.m normal ppc objective-c com.apple.compilers.gcc.4_2
+cCompileC build/mythgrowl.build/Release/MythGrowl.build/Objects-normal/i386/main.o /Users/john/Documents/XcodeProjects/mythgrowl/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/mythgrowl.build/Release/MythGrowl.build/Objects-normal/i386/PreferencesController.o /Users/john/Documents/XcodeProjects/mythgrowl/PreferencesController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/mythgrowl.build/Release/MythGrowl.build/Objects-normal/i386/MenuHandler.o /Users/john/Documents/XcodeProjects/mythgrowl/MenuHandler.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/mythgrowl.build/Release/MythGrowl.build/Objects-normal/i386/GrowlHandler.o /Users/john/Documents/XcodeProjects/mythgrowl/GrowlHandler.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/john/Documents/XcodeProjects/mythgrowl/build/mythgrowl.build/Release/MythGrowl.build/Objects-normal/ppc/MythGrowl normal ppc
+cLd /Users/john/Documents/XcodeProjects/mythgrowl/build/mythgrowl.build/Release/MythGrowl.build/Objects-normal/i386/MythGrowl normal i386
+cCreateUniversalBinary /Users/john/Documents/XcodeProjects/mythgrowl/build/Release/MythGrowl.app/Contents/MacOS/MythGrowl normal "ppc i386"
+cPBXCp build/Release/MythGrowl.app/Contents/Frameworks/PreferencesController.h PreferencesController.h
+cPBXCp build/Release/MythGrowl.app/Contents/Frameworks/MenuHandler.h MenuHandler.h
+cPBXCp build/Release/MythGrowl.app/Contents/Frameworks/GrowlHandler.h GrowlHandler.h
+cPBXCp build/Release/MythGrowl.app/Contents/Frameworks/AGRegex.framework AGRegex.framework
+cPBXCp build/Release/MythGrowl.app/Contents/Frameworks/Sparkle.framework Sparkle.framework
+cPBXCp build/Release/MythGrowl.app/Contents/Frameworks/Growl-WithInstaller.framework Growl-WithInstaller.framework
+cTouch /Users/john/Documents/XcodeProjects/mythgrowl/build/Release/MythGrowl.app
+
+N/Developer/SDKs/MacOSX10.5.sdk
+c000000004A49A9E400000000000000EE
+t1246341604
+s238
+
+N/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h
+c0000000040C4AA6800000000000001E5
+t1086630504
+s485
+
+N/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004864A1C900000000000012EE
+t1214554569
+s4846
+
+N/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSObject.h
+c000000004864A1CB0000000000000CD5
+t1214554571
+s3285
+
+N/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSRange.h
+c000000004864A1CC000000000000049D
+t1214554572
+s1181
+
+N/System/Library/Frameworks/Cocoa.framework/Cocoa
+c000000004A1F2D63000000000000A5E0
+t1243557219
+s42464
+
+N/Users/john/Documents/XcodeProjects/mythgrowl/AGRegex.framework
+c000000004B7A124B00000000000000EE
+t1266291275
+s238
+
+N/Users/john/Documents/XcodeProjects/mythgrowl/AGRegex.framework/AGRegex
+c000000004B7A124B0000000000052720
+t1266291275
+s337696
+
+N/Users/john/Documents/XcodeProjects/mythgrowl/AGRegex.framework/Headers/AGRegex.h
+c000000004B7A124B0000000000003113
+t1266291275
+s12563
+i<Foundation/NSObject.h>
+i<Foundation/NSRange.h>
+
+N/Users/john/Documents/XcodeProjects/mythgrowl/Config.nib
+c000000004B7A124400000000000000CC
+t1266291268
+s204
+
+N/Users/john/Documents/XcodeProjects/mythgrowl/Credits.rtf
+c000000004B7A124B00000000000004EC
+t1266291275
+s1260
+
+N/Users/john/Documents/XcodeProjects/mythgrowl/English.lproj/InfoPlist.strings
+c000000004B7A124B00000000000000BE
+t1266291275
+s190
+
+N/Users/john/Documents/XcodeProjects/mythgrowl/English.lproj/Menu.nib
+c000000004B7A124B00000000000000CC
+t1266291275
+s204
+
+N/Users/john/Documents/XcodeProjects/mythgrowl/Growl-WithInstaller.framework
+c000000004B7A124B00000000000000EE
+t1266291275
+s238
+
+N/Users/john/Documents/XcodeProjects/mythgrowl/Growl-WithInstaller.framework/Growl-WithInstaller
+c000000004B7A124B0000000000032428
+t1266291275
+s205864
+
+N/Users/john/Documents/XcodeProjects/mythgrowl/Growl-WithInstaller.framework/Headers/GrowlApplicationBridge.h
+c000000004B7A124B000000000000667C
+t1266291275
+s26236
+i<Foundation/Foundation.h>
+i"GrowlDefines.h"
+
+N/Users/john/Documents/XcodeProjects/mythgrowl/Growl-WithInstaller.framework/Headers/GrowlDefines.h
+c000000004B7A124B0000000000003569
+t1266291275
+s13673
+
+N/Users/john/Documents/XcodeProjects/mythgrowl/GrowlHandler.h
+c000000004B7A124B00000000000001F7
+t1266291275
+s503
+i<Cocoa/Cocoa.h>
+i"Growl-WithInstaller/GrowlApplicationBridge.h"
+
+N/Users/john/Documents/XcodeProjects/mythgrowl/GrowlHandler.m
+c000000004B7A124B0000000000000648
+t1266291275
+s1608
+i"GrowlHandler.h"
+i"Growl-WithInstaller/GrowlApplicationBridge.h"
+
+N/Users/john/Documents/XcodeProjects/mythgrowl/MenuHandler.h
+c000000004B7A124B0000000000000308
+t1266291275
+s776
+i<Cocoa/Cocoa.h>
+
+N/Users/john/Documents/XcodeProjects/mythgrowl/MenuHandler.m
+c000000004B7A183F00000000000038E8
+t1266292799
+s14568
+i"MenuHandler.h"
+i"PreferencesController.h"
+i"GrowlHandler.h"
+i"Sparkle/SUUpdater.h"
+i"Growl-WithInstaller/GrowlApplicationBridge.h"
+i"AGRegex/AGRegex.h"
+
+N/Users/john/Documents/XcodeProjects/mythgrowl/PreferencesController.h
+c000000004B7A124B000000000000014F
+t1266291275
+s335
+i<Cocoa/Cocoa.h>
+
+N/Users/john/Documents/XcodeProjects/mythgrowl/PreferencesController.m
+c000000004B7A124B00000000000006C3
+t1266291275
+s1731
+i"PreferencesController.h"
+
+N/Users/john/Documents/XcodeProjects/mythgrowl/Sparkle.framework
+c000000004B7A124300000000000000EE
+t1266291267
+s238
+
+N/Users/john/Documents/XcodeProjects/mythgrowl/Sparkle.framework/Headers/SUUpdater.h
+c000000004B7A12430000000000000878
+t1266291267
+s2168
+i<Cocoa/Cocoa.h>
+
+N/Users/john/Documents/XcodeProjects/mythgrowl/Sparkle.framework/Sparkle
+c000000004B7A12430000000000030300
+t1266291267
+s197376
+
+N/Users/john/Documents/XcodeProjects/mythgrowl/application.icns
+c000000004B7A124B000000000000D8B3
+t1266291275
+s55475
+
+N/Users/john/Documents/XcodeProjects/mythgrowl/build/Release/MythGrowl.app
+t1266293555
+s102
+
+N/Users/john/Documents/XcodeProjects/mythgrowl/build/Release/MythGrowl.app/Contents/Frameworks/AGRegex.framework
+t1266293555
+s204
+
+N/Users/john/Documents/XcodeProjects/mythgrowl/build/Release/MythGrowl.app/Contents/Frameworks/Growl-WithInstaller.framework
+t1266293555
+s204
+
+N/Users/john/Documents/XcodeProjects/mythgrowl/build/Release/MythGrowl.app/Contents/Frameworks/GrowlHandler.h
+t1266293555
+s503
+
+N/Users/john/Documents/XcodeProjects/mythgrowl/build/Release/MythGrowl.app/Contents/Frameworks/MenuHandler.h
+t1266293555
+s776
+
+N/Users/john/Documents/XcodeProjects/mythgrowl/build/Release/MythGrowl.app/Contents/Frameworks/PreferencesController.h
+t1266293555
+s335
+
+N/Users/john/Documents/XcodeProjects/mythgrowl/build/Release/MythGrowl.app/Contents/Frameworks/Sparkle.framework
+t1266293555
+s204
+
+N/Users/john/Documents/XcodeProjects/mythgrowl/build/Release/MythGrowl.app/Contents/Info.plist
+t1266293554
+s961
+
+N/Users/john/Documents/XcodeProjects/mythgrowl/build/Release/MythGrowl.app/Contents/MacOS/MythGrowl
+t1266293555
+s69948
+
+N/Users/john/Documents/XcodeProjects/mythgrowl/build/Release/MythGrowl.app/Contents/PkgInfo
+t1266293554
+s8
+
+N/Users/john/Documents/XcodeProjects/mythgrowl/build/Release/MythGrowl.app/Contents/Resources/Config.nib
+t1266293554
+s8145
+
+N/Users/john/Documents/XcodeProjects/mythgrowl/build/Release/MythGrowl.app/Contents/Resources/Credits.rtf
+t1266293554
+s1260
+
+N/Users/john/Documents/XcodeProjects/mythgrowl/build/Release/MythGrowl.app/Contents/Resources/English.lproj/InfoPlist.strings
+t1266293554
+s190
+
+N/Users/john/Documents/XcodeProjects/mythgrowl/build/Release/MythGrowl.app/Contents/Resources/English.lproj/Menu.nib
+t1266293554
+s8782
+
+N/Users/john/Documents/XcodeProjects/mythgrowl/build/Release/MythGrowl.app/Contents/Resources/application.icns
+t1266293554
+s55475
+
+N/Users/john/Documents/XcodeProjects/mythgrowl/build/Release/MythGrowl.app/Contents/Resources/growlmenu.png
+t1266293554
+s462
+
+N/Users/john/Documents/XcodeProjects/mythgrowl/build/Release/MythGrowl.app/Contents/Resources/growlmenu1.png
+t1266293554
+s453
+
+N/Users/john/Documents/XcodeProjects/mythgrowl/build/Release/MythGrowl.app/Contents/Resources/growlmenu2.png
+t1266293554
+s444
+
+N/Users/john/Documents/XcodeProjects/mythgrowl/build/mythgrowl.build/Release/MythGrowl.build/Objects-normal/i386/GrowlHandler.o
+t1266293555
+s4808
+
+N/Users/john/Documents/XcodeProjects/mythgrowl/build/mythgrowl.build/Release/MythGrowl.build/Objects-normal/i386/MenuHandler.o
+t1266293555
+s20536
+
+N/Users/john/Documents/XcodeProjects/mythgrowl/build/mythgrowl.build/Release/MythGrowl.build/Objects-normal/i386/MythGrowl
+t1266293555
+s33084
+
+N/Users/john/Documents/XcodeProjects/mythgrowl/build/mythgrowl.build/Release/MythGrowl.build/Objects-normal/i386/MythGrowl.LinkFileList
+c000000004B7A1B3200000000000001FC
+t1266293554
+s508
+
+N/Users/john/Documents/XcodeProjects/mythgrowl/build/mythgrowl.build/Release/MythGrowl.build/Objects-normal/i386/PreferencesController.o
+t1266293555
+s5212
+
+N/Users/john/Documents/XcodeProjects/mythgrowl/build/mythgrowl.build/Release/MythGrowl.build/Objects-normal/i386/main.o
+t1266293555
+s1912
+
+N/Users/john/Documents/XcodeProjects/mythgrowl/build/mythgrowl.build/Release/MythGrowl.build/Objects-normal/ppc/GrowlHandler.o
+t1266293555
+s5528
+
+N/Users/john/Documents/XcodeProjects/mythgrowl/build/mythgrowl.build/Release/MythGrowl.build/Objects-normal/ppc/MenuHandler.o
+t1266293555
+s24164
+
+N/Users/john/Documents/XcodeProjects/mythgrowl/build/mythgrowl.build/Release/MythGrowl.build/Objects-normal/ppc/MythGrowl
+t1266293555
+s29088
+
+N/Users/john/Documents/XcodeProjects/mythgrowl/build/mythgrowl.build/Release/MythGrowl.build/Objects-normal/ppc/MythGrowl.LinkFileList
+c000000004B7A1B3200000000000001F8
+t1266293554
+s504
+
+N/Users/john/Documents/XcodeProjects/mythgrowl/build/mythgrowl.build/Release/MythGrowl.build/Objects-normal/ppc/PreferencesController.o
+t1266293555
+s6088
+
+N/Users/john/Documents/XcodeProjects/mythgrowl/build/mythgrowl.build/Release/MythGrowl.build/Objects-normal/ppc/main.o
+t1266293555
+s2076
+
+N/Users/john/Documents/XcodeProjects/mythgrowl/growlmenu.png
+c000000004B7A124B00000000000001CE
+t1266291275
+s462
+
+N/Users/john/Documents/XcodeProjects/mythgrowl/growlmenu1.png
+c000000004B7A124B00000000000001C5
+t1266291275
+s453
+
+N/Users/john/Documents/XcodeProjects/mythgrowl/growlmenu2.png
+c0000000047D500D300000000000001BC
+t1205141715
+s444
+
+N/Users/john/Documents/XcodeProjects/mythgrowl/main.m
+c000000004B7A124B00000000000000FE
+t1266291275
+s254
+i<Cocoa/Cocoa.h>
+
+NInfo.plist
+c000000004B7A1B2800000000000003D0
+t1266293544
+s976
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies287986354#287986354#0(0"0(0#1#0"4300885448#0"0#
+
+CCompileC build/mythgrowl.build/Release/MythGrowl.build/Objects-normal/i386/GrowlHandler.o /Users/john/Documents/XcodeProjects/mythgrowl/GrowlHandler.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s287986354.588462
+e287986355.344988
+r1
+xCompileC
+xbuild/mythgrowl.build/Release/MythGrowl.build/Objects-normal/i386/GrowlHandler.o
+x/Users/john/Documents/XcodeProjects/mythgrowl/GrowlHandler.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@68"Compile /Users/john/Documents/XcodeProjects/mythgrowl/GrowlHandler.m287986354#287986355#0(0"0(0#0#60"/Users/john/Documents/XcodeProjects/mythgrowl/GrowlHandler.m4300885448#1061"    cd /Users/john/Documents/XcodeProjects/mythgrowl    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -fvisibility=hidden -mmacosx-version-min=10.4 -I/Users/john/Documents/XcodeProjects/mythgrowl/build/mythgrowl.build/Release/MythGrowl.build/MythGrowl.hmap -F/Users/john/Documents/XcodeProjects/mythgrowl/build/Release -F. -F/Users/john/Documents/XcodeProjects/mythgrowl -I/Users/john/Documents/XcodeProjects/mythgrowl/build/Release/include -I/Users/john/Documents/XcodeProjects/mythgrowl/build/mythgrowl.build/Release/MythGrowl.build/DerivedSources/i386 -I/Users/john/Documents/XcodeProjects/mythgrowl/build/mythgrowl.build/Release/MythGrowl.build/DerivedSources -c /Users/john/Documents/XcodeProjects/mythgrowl/GrowlHandler.m -o /Users/john/Documents/XcodeProjects/mythgrowl/build/mythgrowl.build/Release/MythGrowl.build/Objects-normal/i386/GrowlHandler.o0#
+
+CCompileC build/mythgrowl.build/Release/MythGrowl.build/Objects-normal/i386/MenuHandler.o /Users/john/Documents/XcodeProjects/mythgrowl/MenuHandler.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s287986354.587863
+e287986355.510956
+r1
+xCompileC
+xbuild/mythgrowl.build/Release/MythGrowl.build/Objects-normal/i386/MenuHandler.o
+x/Users/john/Documents/XcodeProjects/mythgrowl/MenuHandler.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/john/Documents/XcodeProjects/mythgrowl/MenuHandler.m:402: warning: incomplete implementation of class 'MenuHandler'
+o/Users/john/Documents/XcodeProjects/mythgrowl/MenuHandler.m:402: warning: method definition for '-setImage' not found
+lSLF07#2@67"Compile /Users/john/Documents/XcodeProjects/mythgrowl/MenuHandler.m287986354#287986355#0(241"/Users/john/Documents/XcodeProjects/mythgrowl/MenuHandler.m:402: warning: incomplete implementation of class 'MenuHandler'/Users/john/Documents/XcodeProjects/mythgrowl/MenuHandler.m:402: warning: method definition for '-setImage' not found2(22@48"Incomplete implementation of class 'MenuHandler'287986355#0#123#0(6@59"/Users/john/Documents/XcodeProjects/mythgrowl/MenuHandler.m287985599#402#0#402#0#38"incomplete implementation of class '*'0(22@43"Method definition for '-setImage' not found287986355#123#118#0(6@59"/Users/john/Documents/XcodeProjects/mythgrowl/MenuHandler.m287985599#402#0#402#0#35"method definition for '*' not found0(0#0#59"/Users/john/Documents/XcodeProjects/mythgrowl/MenuHandler.m4300885448#1059"    cd /Users/john/Documents/XcodeProjects/mythgrowl    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -fvisibility=hidden -mmacosx-version-min=10.4 -I/Users/john/Documents/XcodeProjects/mythgrowl/build/mythgrowl.build/Release/MythGrowl.build/MythGrowl.hmap -F/Users/john/Documents/XcodeProjects/mythgrowl/build/Release -F. -F/Users/john/Documents/XcodeProjects/mythgrowl -I/Users/john/Documents/XcodeProjects/mythgrowl/build/Release/include -I/Users/john/Documents/XcodeProjects/mythgrowl/build/mythgrowl.build/Release/MythGrowl.build/DerivedSources/i386 -I/Users/john/Documents/XcodeProjects/mythgrowl/build/mythgrowl.build/Release/MythGrowl.build/DerivedSources -c /Users/john/Documents/XcodeProjects/mythgrowl/MenuHandler.m -o /Users/john/Documents/XcodeProjects/mythgrowl/build/mythgrowl.build/Release/MythGrowl.build/Objects-normal/i386/MenuHandler.o0#
+
+CCompileC build/mythgrowl.build/Release/MythGrowl.build/Objects-normal/i386/PreferencesController.o /Users/john/Documents/XcodeProjects/mythgrowl/PreferencesController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s287986354.587261
+e287986355.352873
+r1
+xCompileC
+xbuild/mythgrowl.build/Release/MythGrowl.build/Objects-normal/i386/PreferencesController.o
+x/Users/john/Documents/XcodeProjects/mythgrowl/PreferencesController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@77"Compile /Users/john/Documents/XcodeProjects/mythgrowl/PreferencesController.m287986354#287986355#0(0"0(0#0#69"/Users/john/Documents/XcodeProjects/mythgrowl/PreferencesController.m4300885448#1079"    cd /Users/john/Documents/XcodeProjects/mythgrowl    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -fvisibility=hidden -mmacosx-version-min=10.4 -I/Users/john/Documents/XcodeProjects/mythgrowl/build/mythgrowl.build/Release/MythGrowl.build/MythGrowl.hmap -F/Users/john/Documents/XcodeProjects/mythgrowl/build/Release -F. -F/Users/john/Documents/XcodeProjects/mythgrowl -I/Users/john/Documents/XcodeProjects/mythgrowl/build/Release/include -I/Users/john/Documents/XcodeProjects/mythgrowl/build/mythgrowl.build/Release/MythGrowl.build/DerivedSources/i386 -I/Users/john/Documents/XcodeProjects/mythgrowl/build/mythgrowl.build/Release/MythGrowl.build/DerivedSources -c /Users/john/Documents/XcodeProjects/mythgrowl/PreferencesController.m -o /Users/john/Documents/XcodeProjects/mythgrowl/build/mythgrowl.build/Release/MythGrowl.build/Objects-normal/i386/PreferencesController.o0#
+
+CCompileC build/mythgrowl.build/Release/MythGrowl.build/Objects-normal/i386/main.o /Users/john/Documents/XcodeProjects/mythgrowl/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s287986354.586666
+e287986355.321252
+r1
+xCompileC
+xbuild/mythgrowl.build/Release/MythGrowl.build/Objects-normal/i386/main.o
+x/Users/john/Documents/XcodeProjects/mythgrowl/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@60"Compile /Users/john/Documents/XcodeProjects/mythgrowl/main.m287986354#287986355#0(0"0(0#0#52"/Users/john/Documents/XcodeProjects/mythgrowl/main.m4300885448#1045"    cd /Users/john/Documents/XcodeProjects/mythgrowl    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -fvisibility=hidden -mmacosx-version-min=10.4 -I/Users/john/Documents/XcodeProjects/mythgrowl/build/mythgrowl.build/Release/MythGrowl.build/MythGrowl.hmap -F/Users/john/Documents/XcodeProjects/mythgrowl/build/Release -F. -F/Users/john/Documents/XcodeProjects/mythgrowl -I/Users/john/Documents/XcodeProjects/mythgrowl/build/Release/include -I/Users/john/Documents/XcodeProjects/mythgrowl/build/mythgrowl.build/Release/MythGrowl.build/DerivedSources/i386 -I/Users/john/Documents/XcodeProjects/mythgrowl/build/mythgrowl.build/Release/MythGrowl.build/DerivedSources -c /Users/john/Documents/XcodeProjects/mythgrowl/main.m -o /Users/john/Documents/XcodeProjects/mythgrowl/build/mythgrowl.build/Release/MythGrowl.build/Objects-normal/i386/main.o0#
+
+CCompileC build/mythgrowl.build/Release/MythGrowl.build/Objects-normal/ppc/GrowlHandler.o /Users/john/Documents/XcodeProjects/mythgrowl/GrowlHandler.m normal ppc objective-c com.apple.compilers.gcc.4_2
+s287986354.586071
+e287986355.326139
+r1
+xCompileC
+xbuild/mythgrowl.build/Release/MythGrowl.build/Objects-normal/ppc/GrowlHandler.o
+x/Users/john/Documents/XcodeProjects/mythgrowl/GrowlHandler.m
+xnormal
+xppc
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@68"Compile /Users/john/Documents/XcodeProjects/mythgrowl/GrowlHandler.m287986354#287986355#0(0"0(0#0#60"/Users/john/Documents/XcodeProjects/mythgrowl/GrowlHandler.m4300885448#1055"    cd /Users/john/Documents/XcodeProjects/mythgrowl    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch ppc -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mtune=G5 -fvisibility=hidden -mmacosx-version-min=10.4 -I/Users/john/Documents/XcodeProjects/mythgrowl/build/mythgrowl.build/Release/MythGrowl.build/MythGrowl.hmap -F/Users/john/Documents/XcodeProjects/mythgrowl/build/Release -F. -F/Users/john/Documents/XcodeProjects/mythgrowl -I/Users/john/Documents/XcodeProjects/mythgrowl/build/Release/include -I/Users/john/Documents/XcodeProjects/mythgrowl/build/mythgrowl.build/Release/MythGrowl.build/DerivedSources/ppc -I/Users/john/Documents/XcodeProjects/mythgrowl/build/mythgrowl.build/Release/MythGrowl.build/DerivedSources -c /Users/john/Documents/XcodeProjects/mythgrowl/GrowlHandler.m -o /Users/john/Documents/XcodeProjects/mythgrowl/build/mythgrowl.build/Release/MythGrowl.build/Objects-normal/ppc/GrowlHandler.o0#
+
+CCompileC build/mythgrowl.build/Release/MythGrowl.build/Objects-normal/ppc/MenuHandler.o /Users/john/Documents/XcodeProjects/mythgrowl/MenuHandler.m normal ppc objective-c com.apple.compilers.gcc.4_2
+s287986354.585487
+e287986355.506627
+r1
+xCompileC
+xbuild/mythgrowl.build/Release/MythGrowl.build/Objects-normal/ppc/MenuHandler.o
+x/Users/john/Documents/XcodeProjects/mythgrowl/MenuHandler.m
+xnormal
+xppc
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/john/Documents/XcodeProjects/mythgrowl/MenuHandler.m:402: warning: incomplete implementation of class 'MenuHandler'
+o/Users/john/Documents/XcodeProjects/mythgrowl/MenuHandler.m:402: warning: method definition for '-setImage' not found
+lSLF07#2@67"Compile /Users/john/Documents/XcodeProjects/mythgrowl/MenuHandler.m287986354#287986355#0(241"/Users/john/Documents/XcodeProjects/mythgrowl/MenuHandler.m:402: warning: incomplete implementation of class 'MenuHandler'/Users/john/Documents/XcodeProjects/mythgrowl/MenuHandler.m:402: warning: method definition for '-setImage' not found2(22@48"Incomplete implementation of class 'MenuHandler'287986355#0#123#0(6@59"/Users/john/Documents/XcodeProjects/mythgrowl/MenuHandler.m287985599#402#0#402#0#38"incomplete implementation of class '*'0(22@43"Method definition for '-setImage' not found287986355#123#118#0(6@59"/Users/john/Documents/XcodeProjects/mythgrowl/MenuHandler.m287985599#402#0#402#0#35"method definition for '*' not found0(0#0#59"/Users/john/Documents/XcodeProjects/mythgrowl/MenuHandler.m4300885448#1053"    cd /Users/john/Documents/XcodeProjects/mythgrowl    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch ppc -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mtune=G5 -fvisibility=hidden -mmacosx-version-min=10.4 -I/Users/john/Documents/XcodeProjects/mythgrowl/build/mythgrowl.build/Release/MythGrowl.build/MythGrowl.hmap -F/Users/john/Documents/XcodeProjects/mythgrowl/build/Release -F. -F/Users/john/Documents/XcodeProjects/mythgrowl -I/Users/john/Documents/XcodeProjects/mythgrowl/build/Release/include -I/Users/john/Documents/XcodeProjects/mythgrowl/build/mythgrowl.build/Release/MythGrowl.build/DerivedSources/ppc -I/Users/john/Documents/XcodeProjects/mythgrowl/build/mythgrowl.build/Release/MythGrowl.build/DerivedSources -c /Users/john/Documents/XcodeProjects/mythgrowl/MenuHandler.m -o /Users/john/Documents/XcodeProjects/mythgrowl/build/mythgrowl.build/Release/MythGrowl.build/Objects-normal/ppc/MenuHandler.o0#
+
+CCompileC build/mythgrowl.build/Release/MythGrowl.build/Objects-normal/ppc/PreferencesController.o /Users/john/Documents/XcodeProjects/mythgrowl/PreferencesController.m normal ppc objective-c com.apple.compilers.gcc.4_2
+s287986354.584892
+e287986355.336578
+r1
+xCompileC
+xbuild/mythgrowl.build/Release/MythGrowl.build/Objects-normal/ppc/PreferencesController.o
+x/Users/john/Documents/XcodeProjects/mythgrowl/PreferencesController.m
+xnormal
+xppc
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@77"Compile /Users/john/Documents/XcodeProjects/mythgrowl/PreferencesController.m287986354#287986355#0(0"0(0#0#69"/Users/john/Documents/XcodeProjects/mythgrowl/PreferencesController.m4300885448#1073"    cd /Users/john/Documents/XcodeProjects/mythgrowl    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch ppc -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mtune=G5 -fvisibility=hidden -mmacosx-version-min=10.4 -I/Users/john/Documents/XcodeProjects/mythgrowl/build/mythgrowl.build/Release/MythGrowl.build/MythGrowl.hmap -F/Users/john/Documents/XcodeProjects/mythgrowl/build/Release -F. -F/Users/john/Documents/XcodeProjects/mythgrowl -I/Users/john/Documents/XcodeProjects/mythgrowl/build/Release/include -I/Users/john/Documents/XcodeProjects/mythgrowl/build/mythgrowl.build/Release/MythGrowl.build/DerivedSources/ppc -I/Users/john/Documents/XcodeProjects/mythgrowl/build/mythgrowl.build/Release/MythGrowl.build/DerivedSources -c /Users/john/Documents/XcodeProjects/mythgrowl/PreferencesController.m -o /Users/john/Documents/XcodeProjects/mythgrowl/build/mythgrowl.build/Release/MythGrowl.build/Objects-normal/ppc/PreferencesController.o0#
+
+CCompileC build/mythgrowl.build/Release/MythGrowl.build/Objects-normal/ppc/main.o /Users/john/Documents/XcodeProjects/mythgrowl/main.m normal ppc objective-c com.apple.compilers.gcc.4_2
+s287986354.584226
+e287986355.300929
+r1
+xCompileC
+xbuild/mythgrowl.build/Release/MythGrowl.build/Objects-normal/ppc/main.o
+x/Users/john/Documents/XcodeProjects/mythgrowl/main.m
+xnormal
+xppc
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@60"Compile /Users/john/Documents/XcodeProjects/mythgrowl/main.m287986354#287986355#0(0"0(0#0#52"/Users/john/Documents/XcodeProjects/mythgrowl/main.m4300885448#1039"    cd /Users/john/Documents/XcodeProjects/mythgrowl    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch ppc -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mtune=G5 -fvisibility=hidden -mmacosx-version-min=10.4 -I/Users/john/Documents/XcodeProjects/mythgrowl/build/mythgrowl.build/Release/MythGrowl.build/MythGrowl.hmap -F/Users/john/Documents/XcodeProjects/mythgrowl/build/Release -F. -F/Users/john/Documents/XcodeProjects/mythgrowl -I/Users/john/Documents/XcodeProjects/mythgrowl/build/Release/include -I/Users/john/Documents/XcodeProjects/mythgrowl/build/mythgrowl.build/Release/MythGrowl.build/DerivedSources/ppc -I/Users/john/Documents/XcodeProjects/mythgrowl/build/mythgrowl.build/Release/MythGrowl.build/DerivedSources -c /Users/john/Documents/XcodeProjects/mythgrowl/main.m -o /Users/john/Documents/XcodeProjects/mythgrowl/build/mythgrowl.build/Release/MythGrowl.build/Objects-normal/ppc/main.o0#
+
+CCopyStringsFile /Users/john/Documents/XcodeProjects/mythgrowl/build/Release/MythGrowl.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
+s287986354.427587
+e287986354.487563
+r1
+xCopyStringsFile
+x/Users/john/Documents/XcodeProjects/mythgrowl/build/Release/MythGrowl.app/Contents/Resources/English.lproj/InfoPlist.strings
+xEnglish.lproj/InfoPlist.strings
+lSLF07#2@36"Copy English.lproj/InfoPlist.strings287986354#287986354#0(0"0(0#0#77"/Users/john/Documents/XcodeProjects/mythgrowl/English.lproj/InfoPlist.strings4300885448#384"    cd /Users/john/Documents/XcodeProjects/mythgrowl    setenv ICONV /usr/bin/iconv    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-16 --outputencoding UTF-16 English.lproj/InfoPlist.strings --outdir /Users/john/Documents/XcodeProjects/mythgrowl/build/Release/MythGrowl.app/Contents/Resources/English.lproj0#
+
+CCpResource build/Release/MythGrowl.app/Contents/Resources/Credits.rtf Credits.rtf
+s287986354.429269
+e287986354.434564
+r1
+xCpResource
+xbuild/Release/MythGrowl.app/Contents/Resources/Credits.rtf
+xCredits.rtf
+lSLF07#2@16"Copy Credits.rtf287986354#287986354#0(0"0(0#0#57"/Users/john/Documents/XcodeProjects/mythgrowl/Credits.rtf4300885448#373"    cd /Users/john/Documents/XcodeProjects/mythgrowl    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/john/Documents/XcodeProjects/mythgrowl/Credits.rtf /Users/john/Documents/XcodeProjects/mythgrowl/build/Release/MythGrowl.app/Contents/Resources0#
+
+CCpResource build/Release/MythGrowl.app/Contents/Resources/application.icns application.icns
+s287986354.428860
+e287986354.434190
+r1
+xCpResource
+xbuild/Release/MythGrowl.app/Contents/Resources/application.icns
+xapplication.icns
+lSLF07#2@21"Copy application.icns287986354#287986354#0(0"0(0#0#62"/Users/john/Documents/XcodeProjects/mythgrowl/application.icns4300885448#378"    cd /Users/john/Documents/XcodeProjects/mythgrowl    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/john/Documents/XcodeProjects/mythgrowl/application.icns /Users/john/Documents/XcodeProjects/mythgrowl/build/Release/MythGrowl.app/Contents/Resources0#
+
+CCpResource build/Release/MythGrowl.app/Contents/Resources/growlmenu.png growlmenu.png
+s287986354.428045
+e287986354.434015
+r1
+xCpResource
+xbuild/Release/MythGrowl.app/Contents/Resources/growlmenu.png
+xgrowlmenu.png
+lSLF07#2@18"Copy growlmenu.png287986354#287986354#0(0"0(0#0#59"/Users/john/Documents/XcodeProjects/mythgrowl/growlmenu.png4300885448#375"    cd /Users/john/Documents/XcodeProjects/mythgrowl    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/john/Documents/XcodeProjects/mythgrowl/growlmenu.png /Users/john/Documents/XcodeProjects/mythgrowl/build/Release/MythGrowl.app/Contents/Resources0#
+
+CCpResource build/Release/MythGrowl.app/Contents/Resources/growlmenu1.png growlmenu1.png
+s287986354.429682
+e287986354.435099
+r1
+xCpResource
+xbuild/Release/MythGrowl.app/Contents/Resources/growlmenu1.png
+xgrowlmenu1.png
+lSLF07#2@19"Copy growlmenu1.png287986354#287986354#0(0"0(0#0#60"/Users/john/Documents/XcodeProjects/mythgrowl/growlmenu1.png4300885448#376"    cd /Users/john/Documents/XcodeProjects/mythgrowl    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/john/Documents/XcodeProjects/mythgrowl/growlmenu1.png /Users/john/Documents/XcodeProjects/mythgrowl/build/Release/MythGrowl.app/Contents/Resources0#
+
+CCpResource build/Release/MythGrowl.app/Contents/Resources/growlmenu2.png growlmenu2.png
+s287986354.430093
+e287986354.434736
+r1
+xCpResource
+xbuild/Release/MythGrowl.app/Contents/Resources/growlmenu2.png
+xgrowlmenu2.png
+lSLF07#2@19"Copy growlmenu2.png287986354#287986354#0(0"0(0#0#60"/Users/john/Documents/XcodeProjects/mythgrowl/growlmenu2.png4300885448#376"    cd /Users/john/Documents/XcodeProjects/mythgrowl    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/john/Documents/XcodeProjects/mythgrowl/growlmenu2.png /Users/john/Documents/XcodeProjects/mythgrowl/build/Release/MythGrowl.app/Contents/Resources0#
+
+CCreateUniversalBinary /Users/john/Documents/XcodeProjects/mythgrowl/build/Release/MythGrowl.app/Contents/MacOS/MythGrowl normal "ppc i386"
+s287986355.536580
+e287986355.538992
+r1
+xCreateUniversalBinary
+x/Users/john/Documents/XcodeProjects/mythgrowl/build/Release/MythGrowl.app/Contents/MacOS/MythGrowl
+xnormal
+xppc i386
+lSLF07#2@92"CreateUniversalBinary build/Release/MythGrowl.app/Contents/MacOS/MythGrowl normal "ppc i386"287986355#287986355#0(0"0(0#0#54"/Users/john/Documents/XcodeProjects/mythgrowl/ppc i3864300885448#429"    cd /Users/john/Documents/XcodeProjects/mythgrowl    /usr/bin/lipo -create /Users/john/Documents/XcodeProjects/mythgrowl/build/mythgrowl.build/Release/MythGrowl.build/Objects-normal/ppc/MythGrowl /Users/john/Documents/XcodeProjects/mythgrowl/build/mythgrowl.build/Release/MythGrowl.build/Objects-normal/i386/MythGrowl -output /Users/john/Documents/XcodeProjects/mythgrowl/build/Release/MythGrowl.app/Contents/MacOS/MythGrowl0#
+
+CLd /Users/john/Documents/XcodeProjects/mythgrowl/build/mythgrowl.build/Release/MythGrowl.build/Objects-normal/i386/MythGrowl normal i386
+s287986355.511031
+e287986355.536509
+r1
+xLd
+x/Users/john/Documents/XcodeProjects/mythgrowl/build/mythgrowl.build/Release/MythGrowl.build/Objects-normal/i386/MythGrowl
+xnormal
+xi386
+lSLF07#2@126"Link /Users/john/Documents/XcodeProjects/mythgrowl/build/mythgrowl.build/Release/MythGrowl.build/Objects-normal/i386/MythGrowl287986355#287986355#0(0"0(0#0#0"4300885448#735"    cd /Users/john/Documents/XcodeProjects/mythgrowl    setenv MACOSX_DEPLOYMENT_TARGET 10.4    /Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/SDKs/MacOSX10.5.sdk -L/Users/john/Documents/XcodeProjects/mythgrowl/build/Release -F/Users/john/Documents/XcodeProjects/mythgrowl/build/Release -F. -F/Users/john/Documents/XcodeProjects/mythgrowl -filelist /Users/john/Documents/XcodeProjects/mythgrowl/build/mythgrowl.build/Release/MythGrowl.build/Objects-normal/i386/MythGrowl.LinkFileList -mmacosx-version-min=10.4 -framework Cocoa -framework Growl-WithInstaller -framework Sparkle -framework AGRegex -o /Users/john/Documents/XcodeProjects/mythgrowl/build/mythgrowl.build/Release/MythGrowl.build/Objects-normal/i386/MythGrowl0#
+
+CLd /Users/john/Documents/XcodeProjects/mythgrowl/build/mythgrowl.build/Release/MythGrowl.build/Objects-normal/ppc/MythGrowl normal ppc
+s287986355.506725
+e287986355.534864
+r1
+xLd
+x/Users/john/Documents/XcodeProjects/mythgrowl/build/mythgrowl.build/Release/MythGrowl.build/Objects-normal/ppc/MythGrowl
+xnormal
+xppc
+lSLF07#2@125"Link /Users/john/Documents/XcodeProjects/mythgrowl/build/mythgrowl.build/Release/MythGrowl.build/Objects-normal/ppc/MythGrowl287986355#287986355#0(0"0(0#0#0"4300885448#732"    cd /Users/john/Documents/XcodeProjects/mythgrowl    setenv MACOSX_DEPLOYMENT_TARGET 10.4    /Developer/usr/bin/gcc-4.2 -arch ppc -isysroot /Developer/SDKs/MacOSX10.5.sdk -L/Users/john/Documents/XcodeProjects/mythgrowl/build/Release -F/Users/john/Documents/XcodeProjects/mythgrowl/build/Release -F. -F/Users/john/Documents/XcodeProjects/mythgrowl -filelist /Users/john/Documents/XcodeProjects/mythgrowl/build/mythgrowl.build/Release/MythGrowl.build/Objects-normal/ppc/MythGrowl.LinkFileList -mmacosx-version-min=10.4 -framework Cocoa -framework Growl-WithInstaller -framework Sparkle -framework AGRegex -o /Users/john/Documents/XcodeProjects/mythgrowl/build/mythgrowl.build/Release/MythGrowl.build/Objects-normal/ppc/MythGrowl0#
+
+CPBXCp build/Release/MythGrowl.app/Contents/Frameworks/AGRegex.framework AGRegex.framework
+s287986355.543677
+e287986355.584457
+r1
+xPBXCp
+xbuild/Release/MythGrowl.app/Contents/Frameworks/AGRegex.framework
+xAGRegex.framework
+lSLF07#2@22"Copy AGRegex.framework287986355#287986355#0(0"0(0#0#63"/Users/john/Documents/XcodeProjects/mythgrowl/AGRegex.framework4300885448#380"    cd /Users/john/Documents/XcodeProjects/mythgrowl    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/john/Documents/XcodeProjects/mythgrowl/AGRegex.framework /Users/john/Documents/XcodeProjects/mythgrowl/build/Release/MythGrowl.app/Contents/Frameworks0#
+
+CPBXCp build/Release/MythGrowl.app/Contents/Frameworks/Growl-WithInstaller.framework Growl-WithInstaller.framework
+s287986355.544885
+e287986355.583513
+r1
+xPBXCp
+xbuild/Release/MythGrowl.app/Contents/Frameworks/Growl-WithInstaller.framework
+xGrowl-WithInstaller.framework
+lSLF07#2@34"Copy Growl-WithInstaller.framework287986355#287986355#0(0"0(0#0#75"/Users/john/Documents/XcodeProjects/mythgrowl/Growl-WithInstaller.framework4300885448#392"    cd /Users/john/Documents/XcodeProjects/mythgrowl    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/john/Documents/XcodeProjects/mythgrowl/Growl-WithInstaller.framework /Users/john/Documents/XcodeProjects/mythgrowl/build/Release/MythGrowl.app/Contents/Frameworks0#
+
+CPBXCp build/Release/MythGrowl.app/Contents/Frameworks/GrowlHandler.h GrowlHandler.h
+s287986355.539905
+e287986355.543211
+r1
+xPBXCp
+xbuild/Release/MythGrowl.app/Contents/Frameworks/GrowlHandler.h
+xGrowlHandler.h
+lSLF07#2@19"Copy GrowlHandler.h287986355#287986355#0(0"0(0#0#60"/Users/john/Documents/XcodeProjects/mythgrowl/GrowlHandler.h4300885448#377"    cd /Users/john/Documents/XcodeProjects/mythgrowl    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/john/Documents/XcodeProjects/mythgrowl/GrowlHandler.h /Users/john/Documents/XcodeProjects/mythgrowl/build/Release/MythGrowl.app/Contents/Frameworks0#
+
+CPBXCp build/Release/MythGrowl.app/Contents/Frameworks/MenuHandler.h MenuHandler.h
+s287986355.539497
+e287986355.543591
+r1
+xPBXCp
+xbuild/Release/MythGrowl.app/Contents/Frameworks/MenuHandler.h
+xMenuHandler.h
+lSLF07#2@18"Copy MenuHandler.h287986355#287986355#0(0"0(0#0#59"/Users/john/Documents/XcodeProjects/mythgrowl/MenuHandler.h4300885448#376"    cd /Users/john/Documents/XcodeProjects/mythgrowl    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/john/Documents/XcodeProjects/mythgrowl/MenuHandler.h /Users/john/Documents/XcodeProjects/mythgrowl/build/Release/MythGrowl.app/Contents/Frameworks0#
+
+CPBXCp build/Release/MythGrowl.app/Contents/Frameworks/PreferencesController.h PreferencesController.h
+s287986355.539044
+e287986355.542395
+r1
+xPBXCp
+xbuild/Release/MythGrowl.app/Contents/Frameworks/PreferencesController.h
+xPreferencesController.h
+lSLF07#2@28"Copy PreferencesController.h287986355#287986355#0(0"0(0#0#69"/Users/john/Documents/XcodeProjects/mythgrowl/PreferencesController.h4300885448#386"    cd /Users/john/Documents/XcodeProjects/mythgrowl    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/john/Documents/XcodeProjects/mythgrowl/PreferencesController.h /Users/john/Documents/XcodeProjects/mythgrowl/build/Release/MythGrowl.app/Contents/Frameworks0#
+
+CPBXCp build/Release/MythGrowl.app/Contents/Frameworks/Sparkle.framework Sparkle.framework
+s287986355.544299
+e287986355.624002
+r1
+xPBXCp
+xbuild/Release/MythGrowl.app/Contents/Frameworks/Sparkle.framework
+xSparkle.framework
+lSLF07#2@22"Copy Sparkle.framework287986355#287986355#0(0"0(0#0#63"/Users/john/Documents/XcodeProjects/mythgrowl/Sparkle.framework4300885448#380"    cd /Users/john/Documents/XcodeProjects/mythgrowl    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/john/Documents/XcodeProjects/mythgrowl/Sparkle.framework /Users/john/Documents/XcodeProjects/mythgrowl/build/Release/MythGrowl.app/Contents/Frameworks0#
+
+CProcessInfoPlistFile /Users/john/Documents/XcodeProjects/mythgrowl/build/Release/MythGrowl.app/Contents/Info.plist Info.plist
+s287986354.424125
+e287986354.427005
+r1
+xProcessInfoPlistFile
+x/Users/john/Documents/XcodeProjects/mythgrowl/build/Release/MythGrowl.app/Contents/Info.plist
+xInfo.plist
+lSLF07#2@18"Process Info.plist287986354#287986354#0(0"0(0#0#56"/Users/john/Documents/XcodeProjects/mythgrowl/Info.plist4300885448#331"    cd /Users/john/Documents/XcodeProjects/mythgrowl    builtin-infoPlistUtility Info.plist -genpkginfo /Users/john/Documents/XcodeProjects/mythgrowl/build/Release/MythGrowl.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o /Users/john/Documents/XcodeProjects/mythgrowl/build/Release/MythGrowl.app/Contents/Info.plist0#
+
+CStripNIB /Users/john/Documents/XcodeProjects/mythgrowl/Config.nib
+s287986354.428458
+e287986354.581614
+r1
+xStripNIB
+x/Users/john/Documents/XcodeProjects/mythgrowl/Config.nib
+lSLF07#2@19"StripNIB Config.nib287986354#287986354#0(0"0(0#0#56"/Users/john/Documents/XcodeProjects/mythgrowl/Config.nib4300885448#288"    cd /Users/john/Documents/XcodeProjects/mythgrowl    /Developer/usr/bin/ibtool --strip /Users/john/Documents/XcodeProjects/mythgrowl/build/Release/MythGrowl.app/Contents/Resources/Config.nib --output-format human-readable-text /Users/john/Documents/XcodeProjects/mythgrowl/Config.nib0#
+
+CStripNIB /Users/john/Documents/XcodeProjects/mythgrowl/English.lproj/Menu.nib
+s287986354.427068
+e287986354.584160
+r1
+xStripNIB
+x/Users/john/Documents/XcodeProjects/mythgrowl/English.lproj/Menu.nib
+lSLF07#2@31"StripNIB English.lproj/Menu.nib287986354#287986354#0(0"0(0#0#68"/Users/john/Documents/XcodeProjects/mythgrowl/English.lproj/Menu.nib4300885448#312"    cd /Users/john/Documents/XcodeProjects/mythgrowl    /Developer/usr/bin/ibtool --strip /Users/john/Documents/XcodeProjects/mythgrowl/build/Release/MythGrowl.app/Contents/Resources/English.lproj/Menu.nib --output-format human-readable-text /Users/john/Documents/XcodeProjects/mythgrowl/English.lproj/Menu.nib0#
+
+CTouch /Users/john/Documents/XcodeProjects/mythgrowl/build/Release/MythGrowl.app
+s287986355.624077
+e287986355.626533
+r1
+xTouch
+x/Users/john/Documents/XcodeProjects/mythgrowl/build/Release/MythGrowl.app
+lSLF07#2@79"Touch /Users/john/Documents/XcodeProjects/mythgrowl/build/Release/MythGrowl.app287986355#287986355#0(0"0(0#0#0"4300885448#149"    cd /Users/john/Documents/XcodeProjects/mythgrowl    /usr/bin/touch -c /Users/john/Documents/XcodeProjects/mythgrowl/build/Release/MythGrowl.app0#
+

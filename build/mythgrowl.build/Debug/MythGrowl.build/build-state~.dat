@@ -1,0 +1,200 @@
+TMythGrowl
+v7
+r1
+cCheck dependencies
+
+N/Users/john/Documents/XcodeProjects/mythgrowl/AGRegex.framework
+c000000004B7A124B00000000000000EE
+t1266291275
+s238
+
+N/Users/john/Documents/XcodeProjects/mythgrowl/Config.nib
+c000000004B7A124400000000000000CC
+t1266291268
+s204
+
+N/Users/john/Documents/XcodeProjects/mythgrowl/Credits.rtf
+c000000004B7A124B00000000000004EC
+t1266291275
+s1260
+
+N/Users/john/Documents/XcodeProjects/mythgrowl/English.lproj/InfoPlist.strings
+c000000004B7A124B00000000000000BE
+t1266291275
+s190
+
+N/Users/john/Documents/XcodeProjects/mythgrowl/English.lproj/Menu.nib
+c000000004B7A124B00000000000000CC
+t1266291275
+s204
+
+N/Users/john/Documents/XcodeProjects/mythgrowl/Growl-WithInstaller.framework
+c000000004B7A124B00000000000000EE
+t1266291275
+s238
+
+N/Users/john/Documents/XcodeProjects/mythgrowl/GrowlHandler.h
+c000000004B7A124B00000000000001F7
+t1266291275
+s503
+
+N/Users/john/Documents/XcodeProjects/mythgrowl/MenuHandler.h
+c000000004B7A124B0000000000000308
+t1266291275
+s776
+
+N/Users/john/Documents/XcodeProjects/mythgrowl/PreferencesController.h
+c000000004B7A124B000000000000014F
+t1266291275
+s335
+
+N/Users/john/Documents/XcodeProjects/mythgrowl/Sparkle.framework
+c000000004B7A124300000000000000EE
+t1266291267
+s238
+
+N/Users/john/Documents/XcodeProjects/mythgrowl/application.icns
+c000000004B7A124B000000000000D8B3
+t1266291275
+s55475
+
+N/Users/john/Documents/XcodeProjects/mythgrowl/build/Debug/MythGrowl.app
+t2
+s0
+
+N/Users/john/Documents/XcodeProjects/mythgrowl/build/Debug/MythGrowl.app/Contents/Frameworks/AGRegex.framework
+t2
+s0
+
+N/Users/john/Documents/XcodeProjects/mythgrowl/build/Debug/MythGrowl.app/Contents/Frameworks/Growl-WithInstaller.framework
+t2
+s0
+
+N/Users/john/Documents/XcodeProjects/mythgrowl/build/Debug/MythGrowl.app/Contents/Frameworks/GrowlHandler.h
+t2
+s0
+
+N/Users/john/Documents/XcodeProjects/mythgrowl/build/Debug/MythGrowl.app/Contents/Frameworks/MenuHandler.h
+t2
+s0
+
+N/Users/john/Documents/XcodeProjects/mythgrowl/build/Debug/MythGrowl.app/Contents/Frameworks/PreferencesController.h
+t2
+s0
+
+N/Users/john/Documents/XcodeProjects/mythgrowl/build/Debug/MythGrowl.app/Contents/Frameworks/Sparkle.framework
+t2
+s0
+
+N/Users/john/Documents/XcodeProjects/mythgrowl/build/Debug/MythGrowl.app/Contents/Info.plist
+t2
+s0
+
+N/Users/john/Documents/XcodeProjects/mythgrowl/build/Debug/MythGrowl.app/Contents/PkgInfo
+t2
+s0
+
+N/Users/john/Documents/XcodeProjects/mythgrowl/build/Debug/MythGrowl.app/Contents/Resources/Config.nib
+t2
+s0
+
+N/Users/john/Documents/XcodeProjects/mythgrowl/build/Debug/MythGrowl.app/Contents/Resources/Credits.rtf
+t2
+s0
+
+N/Users/john/Documents/XcodeProjects/mythgrowl/build/Debug/MythGrowl.app/Contents/Resources/English.lproj/InfoPlist.strings
+t2
+s0
+
+N/Users/john/Documents/XcodeProjects/mythgrowl/build/Debug/MythGrowl.app/Contents/Resources/English.lproj/Menu.nib
+t2
+s0
+
+N/Users/john/Documents/XcodeProjects/mythgrowl/build/Debug/MythGrowl.app/Contents/Resources/application.icns
+t2
+s0
+
+N/Users/john/Documents/XcodeProjects/mythgrowl/build/Debug/MythGrowl.app/Contents/Resources/growlmenu.png
+t2
+s0
+
+N/Users/john/Documents/XcodeProjects/mythgrowl/build/Debug/MythGrowl.app/Contents/Resources/growlmenu1.png
+t2
+s0
+
+N/Users/john/Documents/XcodeProjects/mythgrowl/build/Debug/MythGrowl.app/Contents/Resources/growlmenu2.png
+t2
+s0
+
+N/Users/john/Documents/XcodeProjects/mythgrowl/growlmenu.png
+c000000004B7A124B00000000000001CE
+t1266291275
+s462
+
+N/Users/john/Documents/XcodeProjects/mythgrowl/growlmenu1.png
+c000000004B7A124B00000000000001C5
+t1266291275
+s453
+
+N/Users/john/Documents/XcodeProjects/mythgrowl/growlmenu2.png
+c0000000047D500D300000000000001BC
+t1205141715
+s444
+
+NInfo.plist
+c000000004B7A124B00000000000003D0
+t1266291275
+s976
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies287984469#287984469#0(86"[BEROR]error: There is no SDK with the name or path '/Developer/SDKs/MacOSX10.4u.sdk'1(4@78"error: There is no SDK with the name or path '/Developer/SDKs/MacOSX10.4u.sdk'287984469#18446744073709551615#0#0(1@0"0(0#1#0"4300885448#0"0#
+
+CCopyStringsFile /Users/john/Documents/XcodeProjects/mythgrowl/build/Debug/MythGrowl.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
+r0
+
+CCpResource build/Debug/MythGrowl.app/Contents/Resources/Credits.rtf Credits.rtf
+r0
+
+CCpResource build/Debug/MythGrowl.app/Contents/Resources/application.icns application.icns
+r0
+
+CCpResource build/Debug/MythGrowl.app/Contents/Resources/growlmenu.png growlmenu.png
+r0
+
+CCpResource build/Debug/MythGrowl.app/Contents/Resources/growlmenu1.png growlmenu1.png
+r0
+
+CCpResource build/Debug/MythGrowl.app/Contents/Resources/growlmenu2.png growlmenu2.png
+r0
+
+CPBXCp build/Debug/MythGrowl.app/Contents/Frameworks/AGRegex.framework AGRegex.framework
+r0
+
+CPBXCp build/Debug/MythGrowl.app/Contents/Frameworks/Growl-WithInstaller.framework Growl-WithInstaller.framework
+r0
+
+CPBXCp build/Debug/MythGrowl.app/Contents/Frameworks/GrowlHandler.h GrowlHandler.h
+r0
+
+CPBXCp build/Debug/MythGrowl.app/Contents/Frameworks/MenuHandler.h MenuHandler.h
+r0
+
+CPBXCp build/Debug/MythGrowl.app/Contents/Frameworks/PreferencesController.h PreferencesController.h
+r0
+
+CPBXCp build/Debug/MythGrowl.app/Contents/Frameworks/Sparkle.framework Sparkle.framework
+r0
+
+CProcessInfoPlistFile /Users/john/Documents/XcodeProjects/mythgrowl/build/Debug/MythGrowl.app/Contents/Info.plist Info.plist
+r0
+
+CStripNIB /Users/john/Documents/XcodeProjects/mythgrowl/Config.nib
+r0
+
+CStripNIB /Users/john/Documents/XcodeProjects/mythgrowl/English.lproj/Menu.nib
+r0
+
+CTouch /Users/john/Documents/XcodeProjects/mythgrowl/build/Debug/MythGrowl.app
+r0
+
